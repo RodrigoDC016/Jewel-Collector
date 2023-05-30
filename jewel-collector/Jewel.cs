@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+// Alteração Victor Kemparski
 //alteração realizada por Rodrigo Cardador
+
 namespace jewel_collector
 {
     public enum JewelType
