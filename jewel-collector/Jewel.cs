@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 \\ Alteração Victor Kemparski
+\\ Segunda alteração Victor Kemparski
 namespace jewel_collector
 {
     public enum JewelType
