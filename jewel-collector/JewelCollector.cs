@@ -16,7 +16,7 @@ namespace jewel_collector
             bool running = true;
             Map map = new Map(10, 10);
 
-            Jewel redJewel_one = new Jewel(1, 9, JewelType.Red);
+            Jewel redJewel_one = new Jewel(2, 8, JewelType.Red);
             Jewel redJewel_two = new Jewel(8, 8, JewelType.Red);
             Jewel greenJewel_one = new Jewel(9, 1, JewelType.Green);
             Jewel greenJewel_two = new Jewel(7, 6, JewelType.Green);
