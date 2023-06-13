@@ -39,7 +39,6 @@ namespace jewel_collector
             Obstacle waterObstacle_four = new Obstacle(5, 3, ObstacleType.Water);
             Obstacle waterObstacle_five = new Obstacle(5, 4, ObstacleType.Water);
             Obstacle waterObstacle_six = new Obstacle(5, 5, ObstacleType.Water);
-            Obstacle waterObstacle_seven = new Obstacle(5, 6, ObstacleType.Water);
             Obstacle treeObstacle_one = new Obstacle(5,9, ObstacleType.Tree);
             Obstacle treeObstacle_two = new Obstacle(3, 9, ObstacleType.Tree);
             Obstacle treeObstacle_three = new Obstacle(8, 3, ObstacleType.Tree);
@@ -51,7 +50,6 @@ namespace jewel_collector
             map.AddObstacle(waterObstacle_four);
             map.AddObstacle(waterObstacle_five);
             map.AddObstacle(waterObstacle_six);
-            map.AddObstacle(waterObstacle_seven);
             map.AddObstacle(treeObstacle_one);
             map.AddObstacle(treeObstacle_two);
             map.AddObstacle(treeObstacle_three);
