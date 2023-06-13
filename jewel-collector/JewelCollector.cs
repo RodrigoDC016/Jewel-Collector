@@ -18,6 +18,8 @@ namespace jewel_collector
 
             Jewel redJewel_one = new Jewel(2, 8, JewelType.Red);
             Jewel redJewel_two = new Jewel(8, 8, JewelType.Red);
+            Jewel redJewel_tree = new Jewel(1, 8, JewelType.Red);
+            Jewel redJewel_four = new Jewel(3, 8, JewelType.Red);
             Jewel greenJewel_one = new Jewel(9, 1, JewelType.Green);
             Jewel greenJewel_two = new Jewel(7, 6, JewelType.Green);
             Jewel blueJewel_one = new Jewel(4,3, JewelType.Blue);
@@ -26,6 +28,8 @@ namespace jewel_collector
 
             map.AddJewel(redJewel_one);
             map.AddJewel(redJewel_two);
+            map.AddJewel(redJewel_tree);
+            map.AddJewel(redJewel_four);
             map.AddJewel(greenJewel_one);
             map.AddJewel(greenJewel_two);
             map.AddJewel(blueJewel_one);
