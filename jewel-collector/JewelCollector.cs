@@ -44,7 +44,6 @@ namespace jewel_collector
             Obstacle treeObstacle_two = new Obstacle(3, 9, ObstacleType.Tree);
             Obstacle treeObstacle_three = new Obstacle(8, 3, ObstacleType.Tree);
             Obstacle treeObstacle_four = new Obstacle(2, 5, ObstacleType.Tree);
-            Obstacle treeObstacle_five = new Obstacle(1, 4, ObstacleType.Tree);
 
             map.AddObstacle(waterObstacle_one);
             map.AddObstacle(waterObstacle_two);
@@ -57,7 +56,6 @@ namespace jewel_collector
             map.AddObstacle(treeObstacle_two);
             map.AddObstacle(treeObstacle_three);
             map.AddObstacle(treeObstacle_four);
-            map.AddObstacle(treeObstacle_five);
 
             Robot robot = new Robot(0, 0);
             map.AddRobot(robot);
