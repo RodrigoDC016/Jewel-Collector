@@ -22,6 +22,7 @@ namespace jewel_collector
             Jewel greenJewel_two = new Jewel(7, 6, JewelType.Green);
             Jewel blueJewel_one = new Jewel(4,3, JewelType.Blue);
             Jewel blueJewel_two = new Jewel(2, 3, JewelType.Blue);
+            Jewel blueJewel_tree = new Jewel(2, 4, JewelType.Blue);
 
             map.AddJewel(redJewel_one);
             map.AddJewel(redJewel_two);
@@ -29,6 +30,7 @@ namespace jewel_collector
             map.AddJewel(greenJewel_two);
             map.AddJewel(blueJewel_one);
             map.AddJewel(blueJewel_two);
+            map.AddJewel(blueJewel_tree);
 
 
             Obstacle waterObstacle_one = new Obstacle(5, 0, ObstacleType.Water);
