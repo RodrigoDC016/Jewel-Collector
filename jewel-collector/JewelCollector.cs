@@ -20,8 +20,8 @@ namespace jewel_collector
             Jewel redJewel_two = new Jewel(8, 8, JewelType.Red);
             Jewel greenJewel_one = new Jewel(9, 1, JewelType.Green);
             Jewel greenJewel_two = new Jewel(7, 6, JewelType.Green);
-            Jewel blueJewel_one = new Jewel(3,4, JewelType.Blue);
-            Jewel blueJewel_two = new Jewel(2, 1, JewelType.Blue);
+            Jewel blueJewel_one = new Jewel(4,3, JewelType.Blue);
+            Jewel blueJewel_two = new Jewel(2, 3, JewelType.Blue);
 
             map.AddJewel(redJewel_one);
             map.AddJewel(redJewel_two);
